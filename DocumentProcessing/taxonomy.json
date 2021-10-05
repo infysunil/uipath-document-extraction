@@ -1,0 +1,510 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "Financial.Incoming.Invoice",
+      "Group": "Accounting",
+      "Category": "Incoming",
+      "Name": "Invoice",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Financial.Incoming.Invoice.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Financial.Incoming.Invoice.invoice-no",
+          "FieldName": "invoice-no",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Incoming.Invoice.invoice-date",
+          "FieldName": "invoice-date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Incoming.Invoice.purchase-order",
+          "FieldName": "purchase-order",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Incoming.Invoice.address",
+          "FieldName": "address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Incoming.Invoice.company-name",
+          "FieldName": "company-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#d2d550"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Incoming.Invoice.total",
+          "FieldName": "total",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#90b5e1"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Other.NoCategory.certificate-of-filing",
+      "Group": "Other",
+      "Category": "certificate",
+      "Name": "certificate-of-filing",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Other.NoCategory.certificate-of-filing.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Other.NoCategory.certificate-of-filing.file-number",
+          "FieldName": "file-number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "Other.NoCategory.certificate-of-filing.file-date",
+          "FieldName": "file-date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "Other.NoCategory.certificate-of-filing.effective-date",
+          "FieldName": "effective-date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Financial.NoCategory.w4-form",
+      "Group": "Financial",
+      "Category": "Reports",
+      "Name": "w4-form",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Financial.NoCategory.w4-form.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Financial.NoCategory.w4-form.first-name",
+          "FieldName": "first-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.NoCategory.w4-form.last-name",
+          "FieldName": "last-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.NoCategory.w4-form.address",
+          "FieldName": "address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.NoCategory.w4-form.social-security-number",
+          "FieldName": "social-security-number",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "Financial.Reports.w9-form",
+      "Group": "Financial",
+      "Category": "Reports",
+      "Name": "w9-form",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "Financial.Reports.w9-form.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "Financial.Reports.w9-form.name",
+          "FieldName": "name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reports.w9-form.business-name",
+          "FieldName": "business-name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reports.w9-form.address",
+          "FieldName": "address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        },
+        {
+          "FieldId": "Financial.Reports.w9-form.employee-indentification-number",
+          "FieldName": "employee-indentification-number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Accounting",
+      "Categories": [
+        "Incoming"
+      ]
+    },
+    {
+      "Name": "Financial",
+      "Categories": [
+        "Reports"
+      ]
+    },
+    {
+      "Name": "Other",
+      "Categories": [
+        "certificate"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    }
+  ]
+}
